@@ -36,7 +36,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     background-color: white;
@@ -44,6 +44,7 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+    transform: translate(-50%, -50%);
 }
 
 section > div#imagem {
@@ -65,6 +66,19 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > input {
+    font-size: 1.1em;
+    width: 100%
+}
+
+form > div.campo {
+    margin: 5px 0px;
 }
 
 form > input[type=submit] {
